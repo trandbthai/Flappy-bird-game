@@ -8,10 +8,10 @@ pygame.init()
 SCREEN = pygame.display.set_mode((500, 750))  # Setting the display
 
 # background
-BACKGROUND_IMAGE = pygame.image.load('src/img/bird_background.jpg')
+BACKGROUND_IMAGE = pygame.image.load('./bird_background.jpg')
 
 # BIRD
-BIRD_IMAGE = pygame.image.load('src/img/bird.png')
+BIRD_IMAGE = pygame.image.load('./bird.png')
 bird_x = 50
 bird_y = 300
 bird_y_change = 0
